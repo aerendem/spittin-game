@@ -1,0 +1,40 @@
+{
+  "name": "spittin-monsters",
+  "tree": {
+    "$className": "DataModel",
+    "ReplicatedStorage": {
+      "Module": {
+        "$path": "src/shared/Module"
+      },
+      "Util": {
+        "$path": "src/shared/Util"
+      },
+      "Packages": {
+        "$path": "Packages"
+      }
+    },
+    "ServerScriptService": {
+      "$path": "src/server"
+    },
+    "StarterPlayer": {
+      "StarterPlayerScripts": {
+        "Controllers": {
+          "$path": "src/client/Controllers"
+        },
+        "bootloader.client.lua": {
+          "$path": "src/client/bootloader.client.lua"
+        }
+      }
+    },
+    "Workspace": {
+      "$properties": {
+        "FilteringEnabled": true
+      }
+    },
+    "SoundService": {
+      "$properties": {
+        "RespectFilteringEnabled": true
+      }
+    }
+  }
+}
